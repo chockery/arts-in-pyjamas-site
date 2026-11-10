@@ -199,12 +199,12 @@ footer {
   }
 
 	.left {
-	  left: 10em;
+	  left: 5em;
 	  transform: rotate(-60deg);
 	}
 
 	.right {
-	  right: 10em;
+	  right: 5em;
 	  transform: rotate(60deg);
 	}
 }
