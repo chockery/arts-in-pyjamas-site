@@ -9,6 +9,7 @@
 :root {
 	--color-background: #fdf0dc;
 	--color-primary: #ea4675;
+	--color-lemon: color-mix(in oklab, var(--color-primary), white 40%);
 	--color-secondary: #00512d;
 	--color-accent: #a4c86e;
 	--color-accent-dark: color-mix(in oklab, var(--color-accent), black 20%);
@@ -206,4 +207,20 @@ footer {
 	  right: 10em;
 	  transform: rotate(60deg);
 	}
+}
+
+.lemon {
+	position: absolute;
+	top: 1em;
+  display: inline-block;
+  background-color: var(--color-lemon);
+  color: white;
+  font-size: 1em;
+  padding: 0.5em 1.5em;
+  border-radius: 50%;
+  box-shadow:
+    1em 0 var(--color-lemon),
+    -1em 0 var(--color-lemon),
+    0 0.8em var(--color-lemon),
+    0 -0.8em var(--color-lemon);
 }
