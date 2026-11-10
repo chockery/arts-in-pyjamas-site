@@ -1,0 +1,78 @@
+/* @import 'tailwindcss'; */
+
+:root {
+	--color-background: #fff2de;
+	--color-primary: #ea4675;
+	--color-secondary: #00512d;
+	--color-accent: #a4c86e;
+	--color-accent-dark: color-mix(in oklab, var(--color-accent), black 20%);
+	--color-block-fill: rgba(75%, 75%, 75%, 0.2);
+	--color-block-outline: rgba(50%, 50%, 50%, 0.5);
+	--font-title: 'Lobster', cursive;
+	--font-text: 'Sniglet', sans-serif;
+	--color-title: var(--color-primary);
+	--color-text: var(--color-accent-dark);
+}
+
+body{
+	margin: 1em auto;
+	width: min(90%, 75em);
+
+	overflow-wrap: break-word;
+
+	background: var(--color-background);
+
+	color: var(--color-text);
+	font-family: var(--font-text);
+	font-size: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: var(--color-title);
+	font-family: var(--font-title);
+}
+
+.title {
+	font-size: 2em;
+	@media (min-width: 60em) {
+		font-size: 3em;
+	}
+	background-color: var(--color-title);
+	padding: 0.5em;
+	border-radius: 0.25em;
+	color: white;
+}
+
+:link {
+	color: var(--color-accent);
+}
+
+:visited {
+	color: var(--color-accent-dark);
+}
+
+body {
+}
+
+hr {
+	margin: 0.5em 0;
+	border: none;
+	outline: none;
+	width: 100%;
+	border-bottom: 1px dashed light-dark(black, white);
+}
+
+ul:not(:has(> li)) {
+	padding: 0;
+}
+
+li {
+	margin-top: 0.5em;
+}
+
+.col {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	text-align: center;
+}
