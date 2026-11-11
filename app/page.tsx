@@ -4,7 +4,7 @@ export default function Home() {
       <header>
         <div className="banner">
           <h2 className="lemon">Want to make this??</h2>
-          <img src="/static/pipe cleaner flowers.jpg"/>
+          <img src="/pipe cleaner flowers.jpg"/>
           <h1 className="title">
             Bend! Twist! <span>BLOOM!</span>
           </h1>

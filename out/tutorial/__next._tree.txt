@@ -1,6 +1,0 @@
-:HL["/_next/static/chunks/3m350dy1fh1yw.css","style"]
-:HL["/_next/static/media/3f329e768b9dc029-s.p.3n5l2eibg0v7e.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/media/8b9734cb21558245-s.p.1tcawmgseusod.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-2:[["children",{"s":"__PAGE__","h":160}]]
-1:[["children",{"s":"tutorial","h":96,"c":"$Q2"}]]
-0:{"b":"MRy74dTzcCGjlI8X9VpIq","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
